@@ -698,21 +698,43 @@ body {
 
   .nav-container {
     padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .nav-logo {
     font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .logo-dot {
+    width: 6px;
+    height: 6px;
   }
 
   .nav-links {
-    display: flex;
-    gap: 1rem;
-    font-size: 0.75rem;
+    display: flex !important;
+    gap: 0.8rem !important;
+    align-items: center !important;
   }
 
   .nav-link {
-    padding: 0.3rem 0.5rem;
-    font-size: 0.7rem;
+    color: #b0b0b0 !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    font-size: 0.65rem !important;
+    position: relative !important;
+    transition: all 0.3s ease !important;
+    padding: 0.2rem 0.4rem !important;
+    display: block !important;
+    white-space: nowrap !important;
+  }
+
+  .nav-link:hover {
+    color: #60a5fa !important;
   }
 
   .profile-section {
